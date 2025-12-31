@@ -9,7 +9,7 @@ While Phase 1 focused on offline accuracy using CSP+LDA, Phase 2 implements an e
 * **Multi-Class Decoding:** Classifies 4 actions (Left Hand, Right Hand, Feet, Tongue).
 * **Deep Learning Core:** Utilizes **EEGNet** (CNN) for robust feature extraction from raw EEG.
 * **Real-time Bridge:** Low-latency UDP communication between Python (Backend) and Unity (Frontend).
-* **State Machine Logic:** Implements "Latching Control" in Unity for complex, multi-limb avatar actuation.
+* **Sequential Input / Latched Output:** Overcoming the "one-action-at-a-time" limitation of the classification model by implementing **Latching Logic** in Unity. This allows the avatar to maintain complex poses (e.g., holding a hand up while moving feet) despite sequential inputs.
 
 ## Technical Stack
 * **AI Backend:** Python 3.x, TensorFlow/Keras, NumPy.
