@@ -1,4 +1,4 @@
-# NeuroAvatar: Real-time BCI Control System (Phase 2)
+# NeuroAvatar: Real-time BCI Control System (0.0.0.1-dev)
 
 This project represents **Phase 2** of the EEG Decoding initiative, transitioning from static binary classification to a **Real-time 4-Class Control System** using Deep Learning and Unity 3D.
 
